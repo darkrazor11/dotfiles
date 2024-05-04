@@ -116,5 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export G_SLICE=always-malloc
-export GAZEBO_MODEL_PATH=/home/anikesh/work/ros2/heauv/sim_ws/src/Plankton/uuv_gazebo_worlds/models:$GAZEBO_MODEL_PATH
+#export G_SLICE=always-malloc
+export GAZEBO_MODEL_PATH=/home/anikesh/work/ros2/simulation
+_ws/src/Plankton/uuv_gazebo_worlds/models:$GAZEBO_MODEL_PATH
